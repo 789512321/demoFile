@@ -37,3 +37,14 @@ for i in range(0,10):
     for j in range(1,i+1):
         print i," X ",j," = ",i*j,"  ",
     print "\n";
+
+"""
+boqienalie
+"""
+t,mp=1;
+while t<1000:
+    t=mp;
+    print mp;
+    mp+=t;
+
+
