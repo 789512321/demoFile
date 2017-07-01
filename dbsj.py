@@ -28,3 +28,12 @@ for a in range(1,rows_user*2+1):
             print " " * row2_null," * " * (a/2), " " * row2_null;
         else:
             print " " * row2_null, " * "," " * row2_null;
+
+"""
+99
+"""
+
+for i in range(0,10):
+    for j in range(1,i+1):
+        print i," X ",j," = ",i*j,"  ",
+    print "\n";
