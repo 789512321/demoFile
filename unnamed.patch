@@ -1,0 +1,8 @@
+Index: demo0701.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- demo0701.py	(revision )
++++ demo0701.py	(revision )
+@@ -0,0 +1,0 @@
