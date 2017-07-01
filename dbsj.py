@@ -19,12 +19,12 @@ for a in range(1,rows_user*2+1):
     if a%2 == 0:
         row2_null = rows_user-a/2;
         if a/2 > 2 :
-            row3_null = a/2-1;
+            row3_null = a/2-2;
         else:
             row3_null = 0;
         if a != rows_user*2 and a !=2 :
-            print "  " * row2_null, " * ", "   " * row3_null, " * ", "  " * row2_null;
+            print " " * row2_null, " * ", "   " * row3_null, " * ", " " * row2_null;
         elif a == rows_user*2:
-            print "  *  " * (a/2);
+            print " " * row2_null," * " * (a/2), " " * row2_null;
         else:
-            print "  " * row2_null, " * ","  " * row2_null;
+            print " " * row2_null, " * "," " * row2_null;
